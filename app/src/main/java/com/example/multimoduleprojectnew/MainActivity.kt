@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                     )
                     LaunchedEffect(Unit) {
                         delay(1000)
-                        provider.getActivities(Activities.SearchActivity).navigate(this@MainActivity)
+                        provider.getActivities(Activities.NewsActivity).navigate(this@MainActivity)
                     }
                 }
             }
